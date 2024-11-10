@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 It's My Birthday! 🎉</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7e8ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #663399;
+            font-size: 2.5em;
+            animation: pulse 1.5s infinite;
+        }
+        p {
+            font-size: 1.2em;
+            animation: bounceIn 2s ease-in-out;
+        }
+        a {
+            color: #fff;
+            background-color: #663399;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        a:hover {
+            background-color: #4b2676;
+            transform: scale(1.1);
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        @keyframes bounceIn {
+            0% { transform: translateY(-20px); opacity: 0; }
+            50% { transform: translateY(10px); opacity: 0.5; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> It's My Birthday! </h1>
+        <p>I’m so grateful for all the love and support you’ve shown me on my birthday. Thanks for making me feel so loved!</p>
+        <a href="https://saikiran5479.github.io/saikiranportfolio.github.io/" target="_blank">Click here to celebrate with me!</a>
+    </div>
+</body>
+</html>
